@@ -1,0 +1,159 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #5eba24;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#c6e7c9;
+}
+table#t01 th	{
+    background-color: black;
+    color: white;
+}
+#saveimg{
+    width: 20px;
+    height: 20px;
+}
+table tr td input{
+    width: 150px;
+}
+
+.background_image {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-position: absolute;
+    background-position-x: 50%;
+    background-position-y: 100%;
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: 37%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+div.login_table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px; 
+}
+
+div.other-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+div.header {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding: 10px;
+    background-color: rgb(93, 186, 36, 1);
+}
+
+div.logo img {
+    display: flex;
+    margin: 10px;
+}
+
+div.cart {
+    display: flex;
+}
+
+div.cart img {
+    margin: 10px;
+}
+
+div.product {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 10px;
+}
+
+div.product1 {
+    border: solid 2px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+div.product1 > div {
+    background-color: #D3D3D3;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+
+.product1 > div:hover {
+    transform: translateY(-5%);
+    background-color: #5eba24;
+  } 
+
+div.product1 > div > h3 {
+    padding-top: 10px;
+}
+
+div.table_columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+div.history {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+}
+
+div.history1 {
+    display: flex;
+}
+
+div.price_text {
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+div.navbar {
+    display: block;
+}
+
+div.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.custom-button {
+    background-color: #87c6ec;
+    height: 30px;
+    width: 140px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: larger;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    background-color: #f2f2f2;
+  }
+
+.custom-button:active {
+    background-color: #ddd;
+}
+
+.form-table {
+    width: 50px;
+    height: 25px;
+}
+  
